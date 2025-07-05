@@ -22,7 +22,7 @@ class _GameBoardScreenState extends State<GameBoardScreen> {
     player1Symbol = ModalRoute.of(context)!.settings.arguments as String;
     return Scaffold(
       body: Container(
-        padding: const EdgeInsets.symmetric(horizontal: 16.0),
+        padding: const EdgeInsets.symmetric(horizontal: 13.0),
         decoration: BoxDecoration(
           gradient: LinearGradient(
             colors: [Color(0xFF00D2FF), Color(0xFF3A7BD5)],
